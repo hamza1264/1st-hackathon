@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+
+    /* NAVBAR MOBILE */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-left: 0;
+    }
+
+    .in-up-buttons {
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* HEAD */
+    .head {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .head-icon {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    /* SECOND CONTAINER */
+    .three-main {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    /* BRAND SLIDER */
+    .slider-track {
+        gap: 40px;
+    }
+
+    /* THIRD CONTAINER */
+    .choose-car,
+    .choose-text {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .choose-text {
+        height: auto;
+    }
+
+    /* FOURTH CONTAINER */
+    .cards {
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    /* FIFTH */
+    .last-card {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    /* SIXTH */
+    .six-contaner {
+        height: auto;
+    }
+}
+
+/* ===========================
+  EXTRA SMALL MOBILE (<= 480px)
+  =========================== */
+@media (max-width: 480px) {
+
+    /* navbar buttons small */
+    .sign-in,
+    .sign-up {
+        width: 70px;
+        font-size: 12px;
+    }
+
+    .nav-links ul li {
+        font-size: 14px;
+    }
+
+    .head {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .three-main {
+        gap: 25px;
+    }
+
+    .cards {
+        width: 95%;
+    }
+
+    .last-card {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
