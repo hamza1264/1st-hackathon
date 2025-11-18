@@ -8,43 +8,8 @@
     /* border: 2px dotted black; */
     margin: 10px auto;
     display: flex;
+    position: fixed;
 
-}
-
-.blue{
-    color: var(--primary-color--);
-}
-
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 20px;
-
-}
-
-.blue {
-    color: var(--primary-color--);
-}
-
-.nav-links ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    align-items: center;
-    margin-left: 100px;
-}
-
-.in-up-buttons {
-    height: 30px;
-    width: 200px;
-    margin: 10px 10px 10px 100px;
-    display: flex;
-    gap: 15px;
 }
 
 .sign-in {
@@ -76,7 +41,13 @@
     width: 300px;
     /* border: 2px solid black; */
     margin: 100px 20px 20px 200px;
+    display: inline-block;
 }
+
+.blue{
+    color: var(--primary-color--);
+}
+
 
 .button-mac {
     width: 100px;
@@ -107,7 +78,11 @@
     background-color: var(--primary-color--);
     color: var(--white-color--);
 }
-
+ 
+.hero-image{
+     width: 700px;
+     
+}
 
 /* second contaner start */
 
@@ -148,6 +123,13 @@
     margin: 80px auto;
 }
 
+.brands {
+    width: 100px;
+    height: 80px;
+    /* border: 2px solid black; */
+}
+
+
 
 .icon {
     width: 70px;
@@ -160,15 +142,7 @@
     border-radius: 12px;
     font-size: 30px;
     margin: 0 auto 15px;
-}
-
-
-
-.brands {
-    width: 100%;
-    height: 80px;
-    /* border: 2px solid black; */
-}
+} 
 
 /* .brand-slider {
     width: 100%;
@@ -225,8 +199,6 @@
     display: inline-block;
     margin: 20px 20px 20px 200px;
     position: relative;
-
-
 }
 
 .small-text {
@@ -236,8 +208,6 @@
     display: inline-block;
     align-items: center;
     vertical-align: middle;
-
-
 }
 
 .four-box {
@@ -277,6 +247,10 @@
     z-index: 10;
 }
 
+/* .second-image{
+     width: 700px;
+} */
+
 /* third contaner end */
 
 /* forth contaner start */
@@ -309,8 +283,14 @@
 
 .last-button {
     text-align: center;
-    margin: 100px auto;
+    margin: 70px auto;
 }
+
+.last-button-img {
+    text-align: center;
+    margin: 0px auto;
+}
+
 
 /* forth contaner end */
 
@@ -364,9 +344,7 @@
  }
 
 
- 
-
-
+/*  
 @media (min-width: 481px) and (max-width: 768px) {
 
     .second-contaner {
@@ -431,7 +409,4 @@
         margin-bottom: 30px;
     }
 }
-
-
-
-
+ */
