@@ -4,11 +4,11 @@
 
 /* navbar start */
 
-@media (max-width: 1279px) and (min-width: 769px) {
+/* @media (max-width: 1279px) and (min-width: 769px) {
 
     .navbar {
         width: 90%;
-        /* padding: 0 10px; */
+        padding: 0 10px;
     }
 
     .nav-links ul {
@@ -21,7 +21,7 @@
         width: auto;
         margin-left: 50px;
         gap: 10px;
-        /* visibility: hidden; */
+        visibility: hidden;
     }
 
     .sign-in,
@@ -33,7 +33,7 @@
     .logo h1 {
         font-size: 20px;
     }
-}
+} */
 
 /* navbar end  */
 
@@ -216,14 +216,10 @@
     .last-button {
         margin: 0px auto;
         text-align: center;
-        width: 150px;
-        height: 20px;
+        width: 200px;
+        height: 40px;
     }
 
-    .last-button-img {
-        text-align: center;
-        margin: 0px auto;
-    }
 }
 
 /* forth section end */
@@ -233,9 +229,9 @@
 @media (max-width: 1279px) and (min-width: 769px) {
 
     .fifth-contaner {
-        height: auto;
+        height: 700px;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 10px;
         padding: 10px;
     }
 
@@ -246,7 +242,15 @@
         flex-wrap: wrap;
         margin: 20px auto;
         gap: 20px;
-        width: 90%;
+        width: 600px;
+    }
+
+    .two-card {
+        width: 500px;
+        height: 50px;
+        /* border: 2px solid red; */
+        margin: 20px 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
 }
@@ -269,7 +273,8 @@
         text-align: center;
     }
 
-    .col-4, .col-8 {
+    .col-4,
+    .col-8 {
         width: 100% !important;
     }
 
@@ -468,14 +473,10 @@
     .last-button {
         margin: 0px auto;
         text-align: center;
-        width: 150px;
-        height: 20px;
+        width: 200px;
+        height: 40px;
     }
 
-    .last-button-img {
-        text-align: center;
-        margin: 0px auto;
-    }
 }
 
 /* forth section end */
@@ -485,9 +486,11 @@
 @media (max-width: 768px) and (min-width: 481px) {
 
     .fifth-contaner {
-        height: auto;
+        height: 1450px;
+        width: 450px;
         text-align: center;
-        margin-top: 30px;
+        justify-items: center;
+        margin: 30px auto;
         padding: 10px;
     }
 

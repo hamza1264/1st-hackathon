@@ -44,7 +44,7 @@
     display: inline-block;
 }
 
-.blue{
+.blue {
     color: var(--primary-color--);
 }
 
@@ -78,10 +78,10 @@
     background-color: var(--primary-color--);
     color: var(--white-color--);
 }
- 
-.hero-image{
-     width: 700px;
-     
+
+.hero-image {
+    width: 700px;
+
 }
 
 /* second contaner start */
@@ -142,7 +142,7 @@
     border-radius: 12px;
     font-size: 30px;
     margin: 0 auto 15px;
-} 
+}
 
 /* .brand-slider {
     width: 100%;
@@ -175,7 +175,7 @@
     height: 700px;
     /* border: 2px solid black; */
     display: flex;
-    margin-top: 100px ;
+    margin-top: 100px;
 
 }
 
@@ -275,21 +275,34 @@
 
 .cards {
     width: 300px;
-    height: 400px;
+    height: 420px;
     /* border: 2px solid black; */
     display: inline-block;
 
 }
 
-.last-button {
-    text-align: center;
-    margin: 70px auto;
+.card-button {
+    width: 200px;
+    height: 40px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    text-transform: capitalize;
+    color: var(--white-color--);
+    background-color: var(--primary-color--);
+    text-decoration: none;
 }
 
-.last-button-img {
+.last-button {
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
     text-align: center;
-    margin: 0px auto;
+    margin: 70px 10px 10px 650px;
+    border-radius: 10px;
+    /* background-color: aquamarine;  */
 }
+
+
 
 
 /* forth contaner end */
@@ -304,16 +317,26 @@
     display: inline-block;
 }
 
-.last-card{
+.last-card {
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid black; */
     display: flex;
-    margin: 20px 20px 20px 200px ;
+    margin: 20px 20px 20px 200px;
 }
 
+.two-card{
+    width: 500px;
+    height: 100px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* fifth contaner end */
 
 /* six contaner start */
 
-.six-contaner{
+.six-contaner {
     width: 100%;
     height: 500px;
     border: 2px solid black;
@@ -337,11 +360,11 @@
 
 }
  */
- /* footer */
+/* footer */
 
- footer{
+footer {
     background-color: var(--footer-color--);
- }
+}
 
 
 /*  
